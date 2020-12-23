@@ -23,7 +23,7 @@ config and a license (ON DEMAND).
     --8<-- "docs/fgvm_az_bootstrap/terraform/variables.tf"
     ```
 
-=== "fgvm.conf"
+=== "fgtvm.conf"
 
     ```
     --8<-- "docs/fgvm_az_bootstrap/terraform/fgtvm.conf"
