@@ -1,0 +1,20 @@
+site_name: Inside the Fabric
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Guides:
+      - FortiGate-VM AWS Bootstrap: fgvm_aws_bootstrap/index.md
+      - FortiGate-VM Azure Bootstrap: fgvm_az_bootstrap/index.md
+
+markdown_extensions:
+  - admonition
+  # Content Tabs
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  # collapsible Admonitions
+  - pymdownx.details
+  # insert external files
+  - pymdownx.snippets
