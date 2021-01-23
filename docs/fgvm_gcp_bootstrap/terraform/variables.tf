@@ -20,12 +20,12 @@ variable "project" {
 # VPC
 variable "network_public_name" {
   type    = string
-  default = "mb-demo-public"
+  default = "tf-demo-public"
 }
 
 variable "network_private_name" {
   type    = string
-  default = "mb-demo-private"
+  default = "tf-demo-private"
 }
 
 variable "subnet_public" {
