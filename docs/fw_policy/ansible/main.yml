@@ -1,0 +1,32 @@
+#!/usr/bin/env ansible-playbook
+---
+- hosts: Enterprise_Core
+
+  vars:
+    firewall_policy_list:
+      - policyid: 1000
+        name: ANY
+        srcintf: [name: any]
+        dstintf: [name: any]
+        srcaddr: [name: all]
+        dstaddr: [name: all]
+        service: [name: ALL]
+        action: accept
+        schedule: always
+
+  tasks:
+    - name: Create Firewall Policy
+      fortinet.fortios.fortios_firewall_policy:
+        state: present
+        access_token: "{{ fortios_access_token }}"
+        firewall_policy:
+          policyid: "{{ item.policyid }}"
+          name: "{{ item.name }}"
+          srcintf: "{{ item.srcintf }}"
+          dstintf: "{{ item.dstintf }}"
+          srcaddr: "{{ item.srcaddr }}"
+          dstaddr: "{{ item.dstaddr }}"
+          service: "{{ item.service }}"
+          action: "{{ item.action }}"
+          schedule: "{{ item.schedule }}"
+      loop: "{{ firewall_policy_list }}"

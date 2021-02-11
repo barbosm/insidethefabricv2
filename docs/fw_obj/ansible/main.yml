@@ -1,0 +1,17 @@
+#!/usr/bin/env ansible-playbook
+---
+- hosts: Enterprise_Core
+
+  vars:
+    fw_addr:
+      name: Finance-Server
+      subnet: 10.100.77.200/32
+
+  tasks:
+    - name: create finance-server addr
+      fortinet.fortios.fortios_firewall_address:
+        state: "present"
+        access_token: "{{ fortios_access_token }}"
+        firewall_address:
+          name: "{{ fw_addr.name }}"
+          subnet: "{{ fw_addr.subnet }}"

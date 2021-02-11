@@ -1,3 +1,4 @@
+---
 site_name: Inside the Fabric
 
 theme:
@@ -8,6 +9,10 @@ nav:
   - Guides:
       - FortiGate-VM AWS Bootstrap: fgvm_aws_bootstrap/index.md
       - FortiGate-VM Azure Bootstrap: fgvm_az_bootstrap/index.md
+  - Reference:
+      - Policy and Objects:
+          - Objects: fw_obj/index.md
+          - Policies: fw_policy/index.md
 
 markdown_extensions:
   - admonition
