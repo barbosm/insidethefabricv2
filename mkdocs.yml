@@ -7,12 +7,13 @@ theme:
 nav:
   - Home: index.md
   - Guides:
-      - FortiGate-VM AWS Bootstrap: fgvm_aws_bootstrap/index.md
-      - FortiGate-VM Azure Bootstrap: fgvm_az_bootstrap/index.md
+      - FortiGate-VM AWS Bootstrap: guides/fgvm_aws_bootstrap.md
+      - FortiGate-VM Azure Bootstrap: guides/fgvm_az_bootstrap.md
+      - FortiGate-VM GCP Bootstrap: guides/fgvm_gcp_bootstrap.md
   - Reference:
       - Policy and Objects:
-          - Objects: fw_obj/index.md
-          - Policies: fw_policy/index.md
+          - Objects: reference/firewall_address.md
+          - Policies: reference/firewall_policy.md
 
 markdown_extensions:
   - admonition

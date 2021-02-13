@@ -14,21 +14,20 @@ config and a license (ON DEMAND).
 === "main.tf"
 
     ```terraform
-    --8<-- "docs/fgvm_aws_bootstrap/terraform/main.tf"
+    --8<-- "code/terraform/fgvm_aws_bootstrap/main.tf"
     ```
 
 === "variables.tf"
 
     ```terraform
-    --8<-- "docs/fgvm_aws_bootstrap/terraform/variables.tf"
+    --8<-- "code/terraform/fgvm_aws_bootstrap/variables.tf"
     ```
 
 === "fgtvm.conf"
 
+    ```bash
+    --8<-- "code/terraform/fgvm_aws_bootstrap/fgtvm.conf"
     ```
-    --8<-- "docs/fgvm_aws_bootstrap/terraform/fgtvm.conf"
-    ```
-
 
 
 ## References

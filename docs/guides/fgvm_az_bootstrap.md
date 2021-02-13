@@ -9,26 +9,26 @@ config and a license (ON DEMAND).
 - Terraform v0.13.5
 - Azure CLI 2.16.0
 
+
 ## Deployment
 
 === "main.tf"
 
     ```terraform
-    --8<-- "docs/fgvm_az_bootstrap/terraform/main.tf"
+    --8<-- "code/terraform/fgvm_az_bootstrap/main.tf"
     ```
 
 === "variables.tf"
 
     ```terraform
-    --8<-- "docs/fgvm_az_bootstrap/terraform/variables.tf"
+    --8<-- "code/terraform/fgvm_az_bootstrap/variables.tf"
     ```
 
 === "fgtvm.conf"
 
+    ```bash
+    --8<-- "code/terraform/fgvm_az_bootstrap/fgtvm.conf"
     ```
-    --8<-- "docs/fgvm_az_bootstrap/terraform/fgtvm.conf"
-    ```
-
 
 
 ## References

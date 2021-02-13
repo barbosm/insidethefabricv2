@@ -1,6 +1,6 @@
-# Firewall Objects
+# Firewall Address
 
-Create objects that can be used in firewall policies.
+Create addresses that can be used in firewall policies.
 
 
 ## Versions
@@ -15,19 +15,19 @@ Create objects that can be used in firewall policies.
 === "CLI"
 
     ```bash
-    --8<-- "docs/fw_obj/cli/main.sh"
+    --8<-- "code/fortios/config_firewall_address.conf"
     ```
 
 === "Ansible"
 
     ```yaml
-    --8<-- "docs/fw_obj/ansible/main.yml"
+    --8<-- "code/ansible/fortios_firewall_address.yml"
     ```
 
 === "Terraform"
 
     ```terraform
-    --8<-- "docs/fw_obj/terraform/main.tf"
+    --8<-- "code/terraform/fortios_firewall_address.tf"
     ```
 
 ## References

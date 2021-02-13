@@ -1,4 +1,4 @@
-# FortiGate-VM AWS Bootstrap
+# FortiGate-VM GCP Bootstrap
 
 This deployment reference will will cover how to launch a FG-VM instance
 at GCP using Terraform. The instance will boot up with a minimal
@@ -14,21 +14,20 @@ config and a license (ON DEMAND).
 === "main.tf"
 
     ```terraform
-    --8<-- "docs/fgvm_aws_bootstrap/terraform/main.tf"
+    --8<-- "code/terraform/fgvm_gcp_bootstrap/main.tf"
     ```
 
 === "variables.tf"
 
     ```terraform
-    --8<-- "docs/fgvm_aws_bootstrap/terraform/variables.tf"
+    --8<-- "code/terraform/fgvm_gcp_bootstrap/variables.tf"
     ```
 
 === "fgtvm.conf"
 
+    ```bash
+    --8<-- "code/terraform/fgvm_gcp_bootstrap/fgtvm.conf"
     ```
-    --8<-- "docs/fgvm_aws_bootstrap/terraform/fgtvm.conf"
-    ```
-
 
 
 ## References

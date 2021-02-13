@@ -15,19 +15,19 @@ Create firewall policies.
 === "CLI"
 
     ```bash
-    --8<-- "docs/fw_policy/cli/main.sh"
+    --8<-- "code/fortios/config_firewall_policy.conf"
     ```
 
 === "Ansible"
 
     ```yaml
-    --8<-- "docs/fw_policy/ansible/main.yml"
+    --8<-- "code/ansible/fortios_firewall_policy.yml"
     ```
 
 === "Terraform"
 
     ```terraform
-    --8<-- "docs/fw_policy/terraform/main.tf"
+    --8<-- "code/terraform/fortios_firewall_policy.tf"
     ```
 
 ## References
