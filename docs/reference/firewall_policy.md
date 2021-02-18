@@ -27,7 +27,7 @@ Create firewall policies.
 === "Terraform"
 
     ```terraform
-    --8<-- "code/terraform/fortios_firewall_policy.tf"
+    --8<-- "code/terraform//reference/fortios_firewall_policy.tf"
     ```
 
 ## References
