@@ -27,7 +27,7 @@ Create addresses that can be used in firewall policies.
 === "Terraform"
 
     ```terraform
-    --8<-- "code/terraform/fortios_firewall_address.tf"
+    --8<-- "code/terraform/reference/fortios_firewall_address.tf"
     ```
 
 ## References
